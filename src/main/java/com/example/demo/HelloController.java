@@ -21,4 +21,10 @@ public class HelloController {
 
         return new ResponseEntity<>("demo", HttpStatus.OK);
     }
+
+    @GetMapping("demo1")
+    public ResponseEntity<?> demo1(){
+
+        return new ResponseEntity<>("demo1", HttpStatus.OK);
+    }
 }
